@@ -4,7 +4,8 @@
     <input type="submit" value="Submit">
 </form>
 <?php
-  $angka = $_POST['angka'];
+      error_reporting(0);
+      $angka = $_POST['angka'];
 
       function rekursif_piramid($i, $j){
           if ($i > 0) {
